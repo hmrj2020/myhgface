@@ -1,40 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Network - Protect Earth</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    <title>绿色家园 - 环保行动与知识</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
 
-        :root {
-            --primary: #2e7d32;
-            --secondary: #4caf50;
-            --accent: #8bc34a;
-            --light: #e8f5e9;
-            --dark: #1b5e20;
-            --text: #333333;
-            --white: #ffffff;
-        }
+    <header>
+        <div class="logo">
+            <h1>绿色家园</h1>
+            <p>为地球，为未来</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="actions.html">环保行动</a></li>
+                <li><a href="news.html">最新资讯</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        body {
-            background-color: var(--light);
-            color: var(--text);
-            line-height: 1.6;
-        }
+    <main>
+        <section id="hero">
+            <h2>保护环境，刻不容缓</h2>
+            <p>了解如何通过您的日常行动，共同守护我们的蓝色星球。</p>
+            <a href="actions.html" class="button">参与我们的环保项目</a>
+        </section>
 
-        header {
-            background: linear-gradient(to right, var(--primary), var(--secondary));
-            color: var(--white);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
+        <section id="mission">
+            <h2>我们的使命</h2>
+            <div class="mission-points">
+                <article>
+                    <h3>🌱 生态保护</h3>
+                    <p>致力于保护生物多样性，维护自然生态平衡。</p>
+                </article>
+                <article>
+                    <h3>💧 节约资源</h3>
+                    <p>倡导水、电、能源的节约和有效利用，减少浪费。</p>
+                </article>
+                <article>
+                    <h3>♻️ 循环利用</h3>
+                    <p>推广垃圾分类、回收和再利用，构建可持续的生活方式。</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="latest-news">
+            <h2>环保最新动态</h2>
+            <div class="article-list">
+                <article class="news-item">
+                    <h3>减少塑料污染：你不知道的五种方法</h3>
+                    <p>学习如何从源头减少塑料使用，并找到可替代的环保产品。</p>
+                    <a href="news-detail-1.html">阅读更多 &raquo;</a>
+                </article>
+                <article class="news-item">
+                    <h3>城市绿化：为我们的城市带来新鲜空气</h3>
+                    <p>探索城市绿化对改善空气质量和居民福祉的积极影响。</p>
+                    <a href="news-detail-2.html">阅读更多 &raquo;</a>
+                </article>
+                </div>
+        </section>
+
+        <section id="call-to-action">
+            <h2>加入我们，一起行动！</h2>
+            <p>无论是捐款支持、成为志愿者还是分享知识，您的力量都至关重要。</p>
+            <a href="contact.html" class="button primary">成为志愿者</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">隐私政策</a>
+            <span>|</span>
+            <a href="terms.html">使用条款</a>
+            <span>|</span>
+            <a href="#top">返回顶部</a>
+        </div>
+        <p>&copy; 2025 绿色家园. 版权所有.</p>
+    </footer>
+
+</body>
+</html>            top: 0;
             z-index: 100;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -720,3 +770,4 @@
 </body>
 
 </html>
+
